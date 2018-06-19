@@ -10,10 +10,9 @@ class App extends Component {
       <div>
       <CartHeader />
       <CartItems />
-      <CartFooter />
+      <CartFooter copy="&copy; 2016"/>
       </div>
     );
   }
 }
-
 export default App;
